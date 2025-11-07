@@ -30,9 +30,8 @@ unzip -q rawdata.zip
 # 1. Create a directory named data
 mkdir data
 # 2. Move the ./rawdata directory to ./data/raw
-cd data
 mkdir raw
-mv ~/dsi3/shell/02_activities/assignments/newproject/rawdata/ ~/dsi3/shell/02_activities/assignments/newproject/data
+mv ./rawdata ./data/raw
 # 3. List the contents of the ./data/raw directory
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
