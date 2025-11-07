@@ -30,8 +30,9 @@ unzip -q rawdata.zip
 # 1. Create a directory named data
 mkdir data
 # 2. Move the ./rawdata directory to ./data/raw
+cd ~/dsi3/shell/02_activities/assignments/newproject/data
 mkdir raw
-mv ./rawdata ./data/raw
+mv ~/dsi3/shell/02_activities/assignments/newproject/rawdata raw
 # 3. List the contents of the ./data/raw directory
 cd ~/dsi3/shell/02_activities/assignments/newproject/data/raw
 ls
