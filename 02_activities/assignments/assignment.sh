@@ -48,8 +48,7 @@ cp ./raw/event*.log ./processed/event_logs
 rm ./raw/*ipaddr*
 rm ./processed/user_logs/*ipaddr*
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-
-
+touch inventory.txt
 ###########################################
 
 echo "Project setup is complete!"
